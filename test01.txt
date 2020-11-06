@@ -3,3 +3,6 @@ ESA2: optional entweder PyGame oder Tkinter, Django, Application Scripting
 ESA3: Vorschlag bis spätestens Anfang Dezember, freies Projekt mit JK, Projekt selbst vorstellen und auch Fragen zum Modul beantworten können (Kolloquium)
 
 Anfang bis Mitte Dezember ist der Stoff durch, danach Vorbereitung des Projekts
+
+========================================
+Hier noch eine Ergänzung zu Testzwecken!
