@@ -1,4 +1,4 @@
-ESA1: Python allgemein, Abgabe Ende Oktober
+ESA1: Python allgemein, Abgabe Ende Oktober (wurde bereits abgegeben, Bewertung steht noch aus)
 ESA2: optional entweder PyGame oder Tkinter, Django, Application Scripting
 ESA3: Vorschlag bis spätestens Anfang Dezember, freies Projekt mit JK, Projekt selbst vorstellen und auch Fragen zum Modul beantworten können (Kolloquium)
 
