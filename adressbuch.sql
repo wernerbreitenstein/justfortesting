@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Erstellungszeit: 06. Nov 2020 um 22:38
+-- Erstellungszeit: 07. Nov 2020 um 08:54
 -- Server-Version: 5.7.26
 -- PHP-Version: 7.4.2
 
@@ -28,14 +28,13 @@ USE `adressbuch`;
 -- Tabellenstruktur für Tabelle `kontakte`
 --
 
-CREATE TABLE IF NOT EXISTS `kontakte` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
+CREATE TABLE `kontakte` (
+  `id` int(11) NOT NULL,
   `vorname` varchar(100) NOT NULL,
   `nachname` varchar(100) NOT NULL,
   `geburtsdatum` date DEFAULT NULL,
-  `anmerkungen` text,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+  `anmerkungen` text
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Daten für Tabelle `kontakte`
@@ -48,6 +47,26 @@ INSERT INTO `kontakte` (`id`, `vorname`, `nachname`, `geburtsdatum`, `anmerkunge
 (4, 'Levi', 'Breitenstein', '2009-10-13', '--'),
 (5, 'Tatjana', 'Breitenstein', '1971-04-07', '--'),
 (6, 'Werner', 'Breitenstein', '1969-06-23', '--');
+
+--
+-- Indizes der exportierten Tabellen
+--
+
+--
+-- Indizes für die Tabelle `kontakte`
+--
+ALTER TABLE `kontakte`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT für exportierte Tabellen
+--
+
+--
+-- AUTO_INCREMENT für Tabelle `kontakte`
+--
+ALTER TABLE `kontakte`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
